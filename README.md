@@ -3,6 +3,7 @@ A header-only library that defines a class that can hold recipes and a class tha
 
 Example:
 
+```
   Recipe r("Microwave Popcorn", 3);
   r.AddIngredient("1/2 cup unpopped popcorn");
   r.AddIngredient("1 teaspoon vegetable oil");
@@ -51,3 +52,4 @@ From: https://www.allrecipes.com/recipe/87305/microwave-popcorn/
   r.ChangeServings(6);
 
   std::cout << r << std::endl;
+```
