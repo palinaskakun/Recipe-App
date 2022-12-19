@@ -1,6 +1,8 @@
 # Recipe-App
 A header-only library that defines a class that can hold recipes and a class that represents a simple recipe app.
 
+Example:
+
   Recipe r("Microwave Popcorn", 3);
   r.AddIngredient("1/2 cup unpopped popcorn");
   r.AddIngredient("1 teaspoon vegetable oil");
